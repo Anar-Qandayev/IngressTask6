@@ -1,0 +1,109 @@
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:linear-gradient(#926446,#424242 );
+    background-size: 100%;
+}
+
+
+
+header{
+    width: 100%;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header nav img{
+    width: 80px;
+    height: 50px;
+    margin: 8px 0 0 0;
+}
+header nav a{
+    font-size: 50px;
+    color: black; 
+    font-weight: 900;
+}
+
+header nav ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header nav ul li{
+    font-size: 25px;
+    font-weight: 700;
+}
+header nav ul li a{
+    color: #501e1e;
+    font-size: 25px;
+}
+header nav ul li a:hover{
+    border-bottom:1px solid snow ;
+    color: white;
+}
+header nav  a:hover{
+    border-bottom:1px solid snow ;
+    color: white;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+.login i{
+    font-size: 100px;
+    color:rgb(205, 219, 245);
+}
+.login input{
+   width: 250px;
+   font-size: 20px;
+   padding: 10px;
+   border-radius: 10px;
+}
+.login input:hover{
+    text-align: right;
+    background-color: rgb(211, 199, 199);
+    color: white;
+}
+.login .inputs{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgb(204, 134, 30);
+    border-radius: 5%;
+    background-color: #EAE5E1;
+}
+.login button{
+    width: 120px;
+    padding: 10px;
+    font-size: 20px;
+    color: wheat;
+    background-color:#926446 ;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.login button a{
+    color: white;
+}

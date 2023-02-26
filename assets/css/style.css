@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+
+
+/* *********************START HEADER******************** */
+
+
+/* ------ONE------ */
+
+.one{
+    background-color: #424242;
+    color: #F1EEEA;
+    font-size: 14px;
+    justify-content: end;
+}
+.one ul{
+    display: flex;
+    padding: 8px 0px;
+    padding-left: 400px;
+}
+.one ul li{
+    padding: 0px 15px;
+}
+.one a{
+    color: #F1EEEA;
+}
+
+
+/* ------TWO------ */
+
+.two{
+    background-color: #926446;
+    display: flex; 
+    padding: 0px 185px;
+    position:fixed;
+    z-index: 1;
+    width: 73%;
+    height: 50px;
+    justify-content: space-between;
+}
+.two ul{
+    display: flex;
+    align-items: center; 
+   
+}
+.two h1{
+    font-size: 26px;
+}
+.two ul li{
+    padding: 0px 16px;
+    font-size: 14px;
+    color:#F1EEEA;
+}
+.two a , button{
+    color: white;
+}
+.two button{
+    background-color: #85C01F;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+}
+
+/* ------THREE------ */
+
+.three{
+    background-color:#AD7A5A;
+    padding: 0px 185px;
+    display: flex;
+    margin: 50px 0px 0px 0px;
+}
+.three input{
+    width: 100px;
+    padding: 15px 17px;
+    font-size: 17px;
+    margin: 15px 0px
+}
+
+/* *********************THE END HEADER******************** */
+
+
+
+/* *********************START MAIN******************** */
+
+main{
+    background-color: #F4F2EF;
+}
+.main-header{
+    padding: 0px 180px;
+}
+.main-header ul{
+    display: flex;
+    padding: 8px;
+}
+.main-header ul li{
+    padding: 0px 3px;
+}
+.main-header a{
+    font-size: 15px;
+    color: gray;
+}
+
+.main-head{
+    display: flex;
+    align-items: center;
+    padding: 15px 185px;
+}
+.main-head input{
+    padding: 10px;
+    margin: 0px 10px ;
+}
+.main-head hgroup{
+    display: flex;
+    padding-left: 400px;
+}
+.main-head h1{
+    color: #424242;
+    font-size: 18px;
+}
+.btn-1{
+    background-color: white;
+    color: black;
+    border-radius: 30px 0px 0px 30px;
+    border: 1px solid gray;
+    padding: 8px 15px;
+}
+.btn-2{
+    background-color: white;
+    color: blue;
+    border: 1px solid gray;
+    border-radius: 0px 30px 30px 0px;
+    padding: 8px 15px;
+}
+fieldset{
+    border: none;
+}
+
+/* ----------Section 1---------- */
+
+#vip-elan{
+    background-color: #F4F2EF;
+    padding: 15px 175px;
+}
+.vip{ 
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    background-color: white;
+}
+.vip h1{
+    font-size: 18px;
+    color: #424242;
+}
+.vip a{
+    padding-left: 680px;
+    color: blue;
+}
+
+
+
+/* ++++++++++++++++++++++ Cards ++++++++++++++++++++++ */
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card figcaption{
+    padding: 8px;
+    background-color: white;
+    border-radius: 0px 0px 13px 13px ;
+}
+.card figure{
+    padding: 8px;
+    position: relative;
+}
+.card .icons{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.card figure .fa-file-circle-check{
+    border-radius: 50%;
+    background-color: #76C81C;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+   
+    top: 20px;
+    left: 20px;
+}
+.card figure .fa-paint-roller{
+    border-radius: 50%;
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+   
+    top: 20px;
+    left: 50px;
+
+}
+.card figure .fa-heart{
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    font-size: 22px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.card figure .fa-percent{
+    border-radius: 50%;
+    background-color: #e6b411;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    top: 20px;
+    left: 80px;
+}
+.card figure .diamond-v{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 30%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 115px;
+    right: 20px;
+}
+.card figure span{
+    color: #98918A;
+}
+.card figure pre{
+    color: #4A4A4A;
+}
+.card figure a{
+    color: black;
+}
+.card img{
+    border-radius: 10px 10px 0px 0px;
+    width: 230px;
+    height: 180px;
+}
+
+
+/* ----------Section 2---------- */
+
+
+#ykomp-vip {
+    padding: 15px 175px;
+}
+.yk-vip{
+    background-color: white;
+}
+.yk-vip h1{
+    padding: 18px;
+    color: #424242;
+    font-size: 18px;
+}
+
+
+/* ----------Section 3---------- */
+
+#elanlar{
+     padding: 15px 175px;
+}
+
+.change-page{
+    background-color: white; 
+}
+.change-page ul{ 
+    display: flex;
+    padding: 15px 380px;
+   
+}
+.change-page ul li{ 
+    padding: 15px;
+}
+.change-page a{
+    color: blue;
+}
+
+
+
+
+
+footer{
+    background-color: #EAE5E1;
+    margin: 15px 0px 0px 0px;
+}
+.footer-1{
+    display: flex;
+    margin: 0% 15%;
+    align-items: center;
+}
+.footer-1 a,i{
+    color: gray;
+}
+.footer-1 ul{
+    align-items: center;
+    padding-left: 40%;
+    display: flex;
+}
+.footer-1 hgroup a{
+    display: block;
+}
+.footer-1 ul li{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+.footer-2{
+    display: flex;
+    padding: 20px 200px;
+}
+.footer-2 ul{
+    display: block;
+    padding: 0px 25px;
+}
+.footer-2 ul li{
+    padding: 10px 5px;
+    font-size: 14px;
+}
+footer a{
+    color: gray;
+}
+.footer-3{
+    padding: 20px 200px;
+}
+.footer-3 ul{
+    display: flex;
+}
+.footer-3 ul li {
+    padding: 10px;
+}
+.footer-4{
+    padding: 20px 200px;
+    display: flex;
+    background-color:#946952;
+    color: white;
+    font-size: 13px;
+}
+.footer-4 ul{
+    display: flex;
+    width: 100%;
+    padding-left: 20%;
+}
